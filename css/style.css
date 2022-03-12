@@ -17,3 +17,22 @@
   border: 3px solid white;
   display: none;
 }
+
+textarea{
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+input{
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+::placeholder{
+  color: #fff;
+}
+
+button{
+  width: 100%;
+}
