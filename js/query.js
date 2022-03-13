@@ -94,6 +94,11 @@ $(document).ready(()=>{
     $('#overlay8').slideUp(1000)
   })
 
+  $('form').submit(()=>{
+    let userName= $('#user-name').val();
+    alert(`Success! Dear ${userName}, Your response has been received. Thank you for contacting us.`)
+  })
+
 
   
 })
