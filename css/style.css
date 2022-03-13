@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 .burner{
@@ -53,4 +54,28 @@ button{
   width: 100%;
   background-color: rgba(156, 29, 231, 0.5);
   display: none;
+}
+
+#mouse{
+  position: relative;
+  animation: move 1.5s steps(10, end) alternate infinite;
+}
+
+#mouse img{
+  cursor: pointer;
+}
+
+@keyframes move{
+  0%{bottom: 0; opacity: 1;}
+  50%{opacity: 0.5;}
+  100%{bottom: 50px; opacity: 1;}
+}
+
+#logo-img{
+  animation: blink 5s reverse ease-in-out infinite;
+}
+
+@keyframes blink{
+  from{opacity: 0;}
+  to{opacity: 1;}
 }
