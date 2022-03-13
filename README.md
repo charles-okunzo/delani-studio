@@ -1,4 +1,4 @@
-# Akan Naming System
+# Delani Studio
 #### By Charles Okunzo
 ### This website for Delani Studio.
 
