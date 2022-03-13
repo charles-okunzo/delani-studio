@@ -22,11 +22,13 @@ textarea{
   width: 100%;
   background-color: transparent;
   border: 1px solid #fff;
+  color: #fff;
 }
 input{
   width: 100%;
   background-color: transparent;
   border: 1px solid #fff;
+  color: #fff;
 }
 
 ::placeholder{
@@ -35,4 +37,7 @@ input{
 
 button{
   width: 100%;
+}
+#design, #development, #p-management{
+  display: none;
 }
