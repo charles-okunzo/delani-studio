@@ -40,8 +40,61 @@ $(document).ready(()=>{
 
   $('#m-ontario').hover(()=>{
     $('#m-ontario-txt').fadeIn(1000);
-    $('#m-ontario-txt').addClass('ontario-wrap');
+    $('#overlay2').slideDown(1000);
   }, ()=>{
     $('#m-ontario-txt').fadeOut(1000)
+    $('#overlay2').slideUp(1000)
   })
+
+  $('#o-mystiry').hover(()=>{
+    $('#o-mystiry-txt').fadeIn(1000);
+    $('#overlay3').slideDown(1000);
+  }, ()=>{
+    $('#o-mystiry-txt').fadeOut(1000)
+    $('#overlay3').slideUp(1000)
+  })
+
+  $('#j-carrey').hover(()=>{
+    $('#j-carrey-txt').fadeIn(1000);
+    $('#overlay4').slideDown(1000);
+  }, ()=>{
+    $('#j-carrey-txt').fadeOut(1000)
+    $('#overlay4').slideUp(1000)
+  })
+
+  $('#elena').hover(()=>{
+    $('#elena-txt').fadeIn(1000);
+    $('#overlay5').slideDown(1000);
+  }, ()=>{
+    $('#elena-txt').fadeOut(1000)
+    $('#overlay5').slideUp(1000)
+  })
+
+  $('#converter').hover(()=>{
+    $('#converter-txt').fadeIn(1000);
+    $('#overlay6').slideDown(1000);
+  }, ()=>{
+    $('#converter-txt').fadeOut(1000)
+    $('#overlay6').slideUp(1000)
+  })
+
+  $('#burned-l').hover(()=>{
+    $('#burned-l-txt').fadeIn(1000);
+    $('#overlay7').slideDown(1000);
+  }, ()=>{
+    $('#burned-l-txt').fadeOut(1000)
+    $('#overlay7').slideUp(1000)
+  })
+
+  $('#g-restaurant').hover(()=>{
+    $('#g-restaurant-txt').fadeIn(1000);
+    $('#overlay8').slideDown(1000);
+  }, ()=>{
+    $('#g-restaurant-txt').fadeOut(1000)
+    $('#overlay8').slideUp(1000)
+  })
+
+
+
+  
 })
