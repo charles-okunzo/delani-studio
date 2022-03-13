@@ -1,6 +1,6 @@
 # Delani Studio
 #### By Charles Okunzo
-### This website for Delani Studio.
+### This is a website for Delani Studio.
 
 ## Table of Contents
 + [Description](#description)
