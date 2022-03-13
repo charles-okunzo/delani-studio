@@ -72,7 +72,7 @@ button{
 }
 
 #logo-img{
-  animation: blink 5s reverse ease-in-out infinite;
+  animation: blink 3s alternate ease-in-out infinite;
 }
 
 @keyframes blink{
