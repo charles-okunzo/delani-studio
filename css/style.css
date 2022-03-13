@@ -41,3 +41,6 @@ button{
 #design, #development, #p-management{
   display: none;
 }
+#design-img, #dev-img, #prod-mgt-img{
+  cursor: pointer;
+}
